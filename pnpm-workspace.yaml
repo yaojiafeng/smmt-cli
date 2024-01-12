@@ -1,0 +1,4 @@
+packages:
+  - packages/examples/* # 测试包
+  - docs # 文档
+  - packages/@ssmt/* # packages/@ssmt 子项目包

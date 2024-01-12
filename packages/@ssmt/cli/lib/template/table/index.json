@@ -1,0 +1,1516 @@
+{
+  "list": [
+    {
+      "type": "form",
+      "label": "表单容器",
+      "columnName": "form",
+      "asideIcon": "iconfont iconshifouyunxuweiwanchengpandianrenwukaidan",
+      "width": "100%",
+      "list": [
+        {
+          "type": "grid",
+          "label": "栅格布局",
+          "columnName": "grid_1704709799336",
+          "asideIcon": "iconfont iconicon-editor-grid",
+          "width": "100%",
+          "list": [
+            {
+              "span": 8,
+              "align": "left",
+              "list": [
+                {
+                  "type": "input",
+                  "label": "供应商名称：",
+                  "columnName": "input_1704793547253",
+                  "defaultValue": "",
+                  "icon": "",
+                  "width": "100%",
+                  "required": false,
+                  "rules": [],
+                  "asideIcon": "iconfont icondanhangwenben",
+                  "customLabelWidth": false,
+                  "classify": "form",
+                  "class": "",
+                  "props": {
+                    "placeholder": "请输入",
+                    "maxlength": "",
+                    "show-word-limit": false,
+                    "clearable": false,
+                    "disabled": false,
+                    "readonly": false
+                  },
+                  "operation": [],
+                  "button": false,
+                  "slot": "",
+                  "button-name": "",
+                  "hidden": false,
+                  "hasParentForm": true,
+                  "labelWidth": 100,
+                  "bpmFlowImageCloumnName": ""
+                }
+              ]
+            },
+            {
+              "span": 8,
+              "align": "left",
+              "list": [
+                {
+                  "type": "input",
+                  "label": "合同名称：",
+                  "columnName": "input_1704942251496",
+                  "defaultValue": "",
+                  "icon": "",
+                  "width": "100%",
+                  "required": false,
+                  "rules": [],
+                  "asideIcon": "iconfont icondanhangwenben",
+                  "customLabelWidth": false,
+                  "classify": "form",
+                  "class": "",
+                  "props": {
+                    "placeholder": "请输入",
+                    "maxlength": "",
+                    "show-word-limit": false,
+                    "clearable": false,
+                    "disabled": false,
+                    "readonly": false
+                  },
+                  "operation": [],
+                  "button": false,
+                  "slot": "",
+                  "button-name": "",
+                  "hidden": false,
+                  "hasParentForm": true,
+                  "labelWidth": 100,
+                  "bpmFlowImageCloumnName": ""
+                }
+              ]
+            },
+            {
+              "span": 8,
+              "align": "left",
+              "list": [
+                {
+                  "type": "select",
+                  "label": "状态：",
+                  "columnName": "select_1704944358788",
+                  "defaultValue": "",
+                  "icon": "",
+                  "width": "100%",
+                  "required": false,
+                  "rules": [],
+                  "asideIcon": "confont iconxialakuang",
+                  "classify": "form",
+                  "needLabel": true,
+                  "defaultSetLabel": false,
+                  "customLabelWidth": false,
+                  "option-label": "label",
+                  "option-value": "value",
+                  "option-alias": "alias",
+                  "option-disabled": "disabled",
+                  "searchProps": {
+                    "need": "0",
+                    "apiName": "",
+                    "isShowInput": false,
+                    "labelAlias": "",
+                    "remotePropName": "condition"
+                  },
+                  "optionProps": {
+                    "optionType": "0",
+                    "sessionKey": "",
+                    "dicKey": "",
+                    "apiName": "",
+                    "apiType": "",
+                    "apiParam": "",
+                    "separator": ",",
+                    "allLabel": "全选",
+                    "allValue": "000",
+                    "isUserAllValue": false
+                  },
+                  "class": "",
+                  "props": {
+                    "placeholder": "请选择",
+                    "multiple": false,
+                    "clearable": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "filterable": false,
+                    "remote": false,
+                    "collapse-tags": false
+                  },
+                  "options": [
+                    {
+                      "label": "Option 1",
+                      "value": "1"
+                    },
+                    {
+                      "label": "Option 2",
+                      "value": "2"
+                    }
+                  ],
+                  "hidden": false,
+                  "isAddOption": false,
+                  "showOptions": [
+                    {
+                      "label": "Option 1",
+                      "value": "1",
+                      "disabled": false
+                    },
+                    {
+                      "label": "Option 2",
+                      "value": "2",
+                      "disabled": false
+                    }
+                  ],
+                  "hasParentForm": true,
+                  "labelWidth": 100,
+                  "targetName": "label_select_1704944358788",
+                  "filterOptionStatus": [],
+                  "disabledOptionStatus": [],
+                  "bpmFlowImageCloumnName": ""
+                }
+              ]
+            }
+          ],
+          "isTableGrid": false,
+          "classify": "layout",
+          "hidden": false,
+          "hasParentForm": true,
+          "labelWidth": 100
+        },
+        {
+          "type": "grid",
+          "label": "栅格布局",
+          "columnName": "grid_1704709806737",
+          "asideIcon": "iconfont iconicon-editor-grid",
+          "width": "100%",
+          "list": [
+            {
+              "span": 8,
+              "align": "left",
+              "list": [
+                {
+                  "label": "日期：",
+                  "type": "AspDateRange",
+                  "required": false,
+                  "rules": [],
+                  "classify": "form",
+                  "class": "",
+                  "columnName": "AspDateRange_1704793478728",
+                  "targetName": "label_AspDateRange_1704793478728",
+                  "asideIcon": "iconfont iconriqi",
+                  "customLabelWidth": false,
+                  "icon": "",
+                  "operation": [],
+                  "hidden": false,
+                  "dateRangeType": 0,
+                  "props": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd",
+                    "value-format": "yyyy-MM-dd",
+                    "range-separator": "至",
+                    "start-placeholder": "",
+                    "end-placeholder": "",
+                    "clearable": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "picker-options": {}
+                  },
+                  "width": "100%",
+                  "hasParentForm": true,
+                  "labelWidth": 100,
+                  "bpmFlowImageCloumnName": ""
+                }
+              ]
+            },
+            {
+              "span": 8,
+              "align": "left",
+              "list": []
+            },
+            {
+              "span": 8,
+              "align": "right",
+              "list": [
+                {
+                  "type": "button",
+                  "label": "查询",
+                  "columnName": "search",
+                  "icon": "icon-input",
+                  "width": "100%",
+                  "required": false,
+                  "hidden": false,
+                  "isEncrypt": false,
+                  "isVerifyTableRow": false,
+                  "asideIcon": "iconfont iconanniu",
+                  "dialogConfig": {
+                    "bindName": "",
+                    "title": "",
+                    "subTitle": "",
+                    "titleClass": "dialog-title-default",
+                    "width": "",
+                    "height": "",
+                    "toolList": []
+                  },
+                  "props": {},
+                  "class": "solid-with-icon-btn",
+                  "classify": "button",
+                  "hasParentForm": true,
+                  "labelWidth": 100,
+                  "oldColumnName": "button_1704709855943",
+                  "bpmFlowImageCloumnName": "",
+                  "tableId": "table",
+                  "formId": "form",
+                  "event": "submit"
+                },
+                {
+                  "type": "button",
+                  "label": "重置",
+                  "columnName": "rest",
+                  "icon": "icon-input",
+                  "width": "100%",
+                  "required": false,
+                  "hidden": false,
+                  "isEncrypt": false,
+                  "isVerifyTableRow": false,
+                  "asideIcon": "iconfont iconanniu",
+                  "dialogConfig": {
+                    "bindName": "",
+                    "title": "",
+                    "subTitle": "",
+                    "titleClass": "dialog-title-default",
+                    "width": "",
+                    "height": "",
+                    "toolList": []
+                  },
+                  "props": {},
+                  "class": "",
+                  "classify": "button",
+                  "hasParentForm": true,
+                  "labelWidth": 100,
+                  "bpmFlowImageCloumnName": "",
+                  "oldColumnName": "button_1704709859497",
+                  "tableId": "table",
+                  "formId": "form",
+                  "event": "reset-submit"
+                }
+              ]
+            }
+          ],
+          "isTableGrid": false,
+          "classify": "layout",
+          "hidden": false,
+          "hasParentForm": true
+        }
+      ],
+      "isBorder": false,
+      "isOverspread": false,
+      "classify": "layout",
+      "hidden": false
+    },
+    {
+      "type": "empty",
+      "label": "空容器",
+      "columnName": "empty_1704764363430",
+      "asideIcon": "iconfont iconkongkuang",
+      "width": "100%",
+      "list": [
+        {
+          "type": "grid",
+          "label": "栅格布局",
+          "columnName": "grid_1704764438247",
+          "asideIcon": "iconfont iconicon-editor-grid",
+          "width": "100%",
+          "list": [
+            {
+              "span": 12,
+              "align": "left",
+              "list": [
+                {
+                  "type": "button",
+                  "label": "新增",
+                  "columnName": "create",
+                  "icon": "icon-input",
+                  "width": "100%",
+                  "required": false,
+                  "hidden": false,
+                  "isEncrypt": false,
+                  "isVerifyTableRow": false,
+                  "asideIcon": "iconfont iconanniu",
+                  "dialogConfig": {
+                    "bindName": "",
+                    "title": "",
+                    "subTitle": "",
+                    "titleClass": "dialog-title-default",
+                    "width": "",
+                    "height": "",
+                    "toolList": []
+                  },
+                  "props": {},
+                  "class": "solid-with-icon-btn",
+                  "classify": "button",
+                  "hasParentForm": false,
+                  "labelWidth": 100,
+                  "bpmFlowImageCloumnName": "",
+                  "oldColumnName": "export",
+                  "event": "router",
+                  "routerType": "path",
+                  "routerKey": "/securityFund/deductHandle",
+                  "routerParamType": "query",
+                  "routerParamValue": "{status: \"create\"}"
+                }
+              ]
+            },
+            {
+              "span": 12,
+              "align": "left",
+              "list": []
+            }
+          ],
+          "isTableGrid": false,
+          "classify": "layout",
+          "hidden": false,
+          "hasParentForm": false,
+          "labelWidth": 100
+        },
+        {
+          "type": "table",
+          "label": "表格",
+          "columnName": "table",
+          "asideIcon": "iconfont icondashujukeshihuaico-",
+          "width": "100%",
+          "classify": "layout",
+          "show-index": false,
+          "indexFixed": false,
+          "show-single-selection": false,
+          "singleSelectionFixed": false,
+          "show-multiple-selection": false,
+          "multipleSelectionFixed": false,
+          "cacheMultipleSelection": false,
+          "multipleSelectionColumnName": [],
+          "highlight-current-row": false,
+          "highlight-current-row-color": "",
+          "show-operation": true,
+          "operationFixed": false,
+          "show-pagination": true,
+          "defaultSelectAll": false,
+          "defaultSort": {
+            "prop": "",
+            "order": "",
+            "ascending": "asc",
+            "descending": "desc"
+          },
+          "showExpand": false,
+          "slotName": "expand",
+          "expandList": [],
+          "childConfig": {
+            "type": "table",
+            "label": "表格",
+            "resorece": "api",
+            "resoreceColName": "children",
+            "expandType": "table",
+            "columnName": "tableChild",
+            "show-index": true,
+            "indexFixed": false,
+            "show-single-selection": false,
+            "singleSelectionFixed": false,
+            "show-multiple-selection": false,
+            "multipleSelectionFixed": false,
+            "cacheMultipleSelection": false,
+            "multipleSelectionColumnName": [],
+            "highlight-current-row": false,
+            "highlight-current-row-color": "",
+            "show-operation": false,
+            "operationFixed": false,
+            "show-pagination": false,
+            "defaultSelectAll": false,
+            "defaultSort": {
+              "prop": "",
+              "order": ""
+            },
+            "fuzzyQuery": false,
+            "fuzzyQueryColumnName": "fuzzyQuery",
+            "fuzzyQueryPlaceholder": "请输入",
+            "fuzzyQueryPostion": "relative",
+            "fuzzyQueryAlign": "right",
+            "props": {
+              "border": true,
+              "stripe": true,
+              "tooltip-effect": "dark",
+              "highlight-current-row": false,
+              "show-header": true,
+              "default-sort": "",
+              "empty-text": "暂无数据"
+            },
+            "btnGroupDynamic": [],
+            "list": [],
+            "operation": [],
+            "toolList": [],
+            "operation-width": "100",
+            "pagination": {
+              "background": false,
+              "layout": "total, sizes, prev, pager, next, jumper",
+              "pageSizes": [
+                10,
+                20,
+                30
+              ],
+              "currentPage": 1,
+              "pageSize": 10,
+              "total": 0,
+              "disabled": false,
+              "hide-on-single-page": false
+            },
+            "http": {
+              "initHttp": true,
+              "type": "",
+              "methods": ""
+            },
+            "hidden": false,
+            "tableTipDesc": "",
+            "tableTipClass": "",
+            "showTableTip": false
+          },
+          "fuzzyQuery": false,
+          "fuzzyQueryColumnName": "fuzzyQuery",
+          "fuzzyQueryPlaceholder": "请输入",
+          "fuzzyQueryPostion": "relative",
+          "fuzzyQueryAlign": "right",
+          "props": {
+            "border": true,
+            "stripe": true,
+            "tooltip-effect": "dark",
+            "highlight-current-row": false,
+            "show-header": true,
+            "default-sort": "",
+            "empty-text": "暂无数据"
+          },
+          "btnGroupDynamic": [],
+          "list": [
+            {
+              "timeStamp": 1704710068471,
+              "label": "表格可编辑参数",
+              "columnName": "$asp_isEdit",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": false,
+              "tooltip": true,
+              "$_isBuiltInParams": true,
+              "filterColumn": false,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "采购经理",
+              "columnName": "columnName_1704710069584",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "合同名称",
+              "columnName": "columnName_1704942606627",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "供应商名称",
+              "columnName": "columnName_1704942615558",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "供应商等级",
+              "columnName": "columnName_1704942621118",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "应扣罚履约保证金",
+              "columnName": "columnName_1704942649778",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "应扣罚履约保证金金额",
+              "columnName": "columnName_1704942662449",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "缴纳方式",
+              "columnName": "columnName_1704942677589",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "现金（元）",
+              "columnName": "columnName_1704942692224",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "保函金额（元）",
+              "columnName": "columnName_1704942707359",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "保函有效期",
+              "columnName": "columnName_1704944704206",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "工单状态",
+              "columnName": "columnName_1704944714688",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            }
+          ],
+          "operation": [],
+          "toolList": [
+            {
+              "type": "text",
+              "timestamp": 1704944776299,
+              "columnName": "button_1704944776299",
+              "label": "详情",
+              "align": "left",
+              "class": "",
+              "icon": "",
+              "justShowIcon": false,
+              "defaultState": "show",
+              "state": "show",
+              "dataLinkage": [],
+              "confirmationStatus": []
+            },
+            {
+              "type": "text",
+              "timestamp": 1704944845853,
+              "columnName": "button_1704944845853",
+              "label": "入账详情",
+              "align": "left",
+              "class": "",
+              "icon": "",
+              "justShowIcon": false,
+              "defaultState": "show",
+              "state": "show",
+              "dataLinkage": [],
+              "confirmationStatus": []
+            }
+          ],
+          "operation-width": "100",
+          "pagination": {
+            "background": false,
+            "layout": "total, sizes, prev, pager, next, jumper",
+            "pageSizes": [
+              10,
+              20,
+              30
+            ],
+            "currentPage": 1,
+            "pageSize": 10,
+            "total": 0,
+            "disabled": false,
+            "hide-on-single-page": false
+          },
+          "http": {
+            "initHttp": true,
+            "type": "post",
+            "methods": "/api/form/lists",
+            "tableLoading": false,
+            "tableLoadingStatus": false,
+            "tableLoadingText": "拼命加载中",
+            "tableLoadingIcon": "el-icon-loading"
+          },
+          "hidden": false,
+          "tableTipDesc": "",
+          "tableTipClass": "",
+          "showTableTip": false,
+          "defaultTableList": [
+            {
+              "timeStamp": 1704710068471,
+              "label": "表格可编辑参数",
+              "columnName": "$asp_isEdit",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": false,
+              "tooltip": true,
+              "$_isBuiltInParams": true,
+              "filterColumn": false,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "采购经理",
+              "columnName": "columnName_1704710069584",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "合同名称",
+              "columnName": "columnName_1704942606627",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "供应商名称",
+              "columnName": "columnName_1704942615558",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "供应商等级",
+              "columnName": "columnName_1704942621118",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "应扣罚履约保证金",
+              "columnName": "columnName_1704942649778",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "应扣罚履约保证金金额",
+              "columnName": "columnName_1704942662449",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "缴纳方式",
+              "columnName": "columnName_1704942677589",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "现金（元）",
+              "columnName": "columnName_1704942692224",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "保函金额（元）",
+              "columnName": "columnName_1704942707359",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "保函有效期",
+              "columnName": "columnName_1704944704206",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            },
+            {
+              "label": "工单状态",
+              "columnName": "columnName_1704944714688",
+              "type": "text",
+              "sort": false,
+              "fixed": false,
+              "classify": "table",
+              "width": "",
+              "min-width": "200",
+              "canEdit": false,
+              "mergeRows": false,
+              "editProps": {
+                "type": ""
+              },
+              "needConvertData": false,
+              "convertProps": {},
+              "list": [],
+              "show": true,
+              "tooltip": true,
+              "filterColumn": true,
+              "customColor": "",
+              "defaultValue": "",
+              "asideIcon": "iconfont icontext",
+              "isLabelWidth": false,
+              "span": 24,
+              "operation": [],
+              "rules": [],
+              "hidden": false,
+              "props": {
+                "disabled": false,
+                "readonly": false
+              },
+              "style": {
+                "word-break": "break-all"
+              },
+              "isCompare": false,
+              "isNumberType": false
+            }
+          ],
+          "paginationStatus": [],
+          "router": {},
+          "formId": "form",
+          "show-operation-status": []
+        }
+      ],
+      "classify": "empty",
+      "hidden": false
+    }
+  ],
+  "model": {
+    "input_1704793547253": "",
+    "input_1704942251496": "",
+    "select_1704944358788": "",
+    "AspDateRange_1704793478728": ""
+  },
+  "tableModel": {},
+  "pagination": {},
+  "publicConfig": {
+    "exportName": "deductList",
+    "exportrRemarks": "",
+    "authorName": "",
+    "project": "webbas",
+    "labelWidth": 100,
+    "labelPosition": "right",
+    "size": "small",
+    "class": "",
+    "layoutType": "flex",
+    "statusList": [],
+    "localProxy": "",
+    "nigxProxy": "",
+    "serverProps": {
+      "statusKey": "",
+      "statusValue": "",
+      "dataKey": "",
+      "requestDataKey": ""
+    },
+    "isOpenHelpTipSwitch": false,
+    "helpTipProps": {
+      "helpTipPostion": "right",
+      "helpTipPageId": "",
+      "helpTipSessionKey": "pageHelpConfig",
+      "helpTipIcon": "el-icon-question",
+      "helpTipPlacement": "right",
+      "helpTipWidth": ""
+    },
+    "titleName": "保证金扣罚"
+  }
+}
