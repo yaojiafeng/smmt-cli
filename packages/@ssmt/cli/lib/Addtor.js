@@ -4,6 +4,8 @@ const writeFileTree = require('./util/writeFileTree')
 const EventEmitter = require('events')
 
 const {
+  log,
+  chalk,
   execa
 } = require('@ssmt/cli-shared-utils')
 module.exports = class Addtor extends EventEmitter {
@@ -27,35 +29,39 @@ module.exports = class Addtor extends EventEmitter {
     } = this
 
     if (cliOptions.form) {
+
+      log(`✨  add component  in ${chalk.yellow(context)}.`)
       // create vue file
+      log('📄  Generating index.vue...')
       var vueFileStr = fs.readFileSync(path.join(__dirname, `/template/form/index.vue`), "utf-8");
       await writeFileTree(context, {
         'index.vue': vueFileStr.replace('@@@', name)
       })
       // create json file
+      log('📄  Generating index.json...')
       var jsonStr = fs.readFileSync(path.join(__dirname, `/template/form/index.json`), "utf-8");
       await writeFileTree(context, {
-        'index.json': jsonStr
+        'index.json': jsonStr.replace('@@@', name)
       })
+      log(`🎉  Successfully add component ${chalk.yellow(name)}.`)
     }
 
     if (cliOptions.table) {
+      log(`✨  add component  in ${chalk.yellow(context)}.`)
       // create vue file
+      log('📄  Generating index.vue...')
       var vueFileStr = fs.readFileSync(path.join(__dirname, `/template/table/index.vue`), "utf-8");
       await writeFileTree(context, {
         'index.vue': vueFileStr.replace('@@@', name)
       })
       // create json file
+      log('📄  Generating index.json...')
       var jsonStr = fs.readFileSync(path.join(__dirname, `/template/table/index.json`), "utf-8");
       await writeFileTree(context, {
-        'index.json': jsonStr
+        'index.json': jsonStr.replace('@@@', name)
       })
+      log(`🎉  Successfully add component ${chalk.yellow(name)}.`)
     }
-
-
-
-
-
   }
 
   run(command, args) {

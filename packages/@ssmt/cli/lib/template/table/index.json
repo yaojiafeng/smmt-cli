@@ -1484,7 +1484,7 @@
   "tableModel": {},
   "pagination": {},
   "publicConfig": {
-    "exportName": "deductList",
+    "exportName": "@@@",
     "exportrRemarks": "",
     "authorName": "",
     "project": "webbas",

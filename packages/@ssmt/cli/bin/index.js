@@ -37,9 +37,9 @@ program
 program
   .command('add <component-name>')
   .description('create a new component powered by ssmt-cli-service')
-  .option('-f, --force', 'Overwrite target directory if it exists')
+  .option('--force', 'Overwrite target directory if it exists')
   .option('-t, --table', 'create a new table component')
-  .option('--form', 'create a new form component')
+  .option('-f, --form', 'create a new form component')
   .option('--merge', 'Merge target directory if it exists')
   .action((name, options) => {
     if (minimist(process.argv.slice(3))._.length > 1) {

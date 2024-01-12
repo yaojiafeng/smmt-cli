@@ -1,18 +1,9 @@
 [
   'env',
   'exit',
-  // 'ipc',
-  // 'logger',
-  // 'module',
-  // 'object',
-  // 'openBrowser',
-  // 'pkg',
-  // 'pluginResolution',
-  // 'pluginOrder',
-  // 'launch',
-  'request',
-  // 'spinner',
-  // 'validate'
+  'logger',
+  'spinner',
+  'request'
 ].forEach(m => {
   Object.assign(exports, require(`./lib/${m}`))
 })
@@ -22,9 +13,3 @@ exports.commander = require('commander')
 exports.execa = require('execa')
 exports.semver = require('semver')
 
-// Object.defineProperty(exports, 'installedBrowsers', {
-//   enumerable: true,
-//   get () {
-//     return exports.getInstalledBrowsers()
-//   }
-// })
