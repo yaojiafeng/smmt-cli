@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "private": true
+  "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
